@@ -1,0 +1,103 @@
+.ul:not(.text-end) {
+  text-align: center;
+}
+
+.sidebar {
+  position: absolute;
+}
+
+.ul li:not(.text-end):hover {
+  background-color: #3d3d3d;
+  color: white;
+}
+
+.t-white {
+  color: white !important;
+}
+
+.t-black {
+  color: black !important;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.ul-big li {
+  width: 115px !important;
+  padding: 5px 20px !important;
+}
+
+.ul li {
+  border-radius: 5px;
+}
+
+.rad-5 {
+  border-radius: 5px;
+}
+
+.rad-5:hover:not(.close) {
+  background-color: #3d3d3d;
+}
+
+svg {
+  fill: black;
+}
+
+#visible {
+  display: flex;
+}
+
+#active {
+  background-color: #3d3d3d;
+}
+
+.bg-invisible {
+  background-color: transparent !important;
+}
+
+.dark-theme {
+  background-color: #252525;
+  color: white;
+  fill: white;
+}
+
+.light-theme {
+  background-color: rgb(253, 253, 227);
+  color: black;
+  fill: black;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-350 {
+  width: 350px;
+}
+
+#hidden {
+  display: none;
+}
+
+.image {
+  width: 350px;
+  flex-shrink: 0;
+}
+
+.mainImage {
+  margin: 0px auto;
+  width: 500px;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.h-100vh {
+  height: 100vh;
+}
